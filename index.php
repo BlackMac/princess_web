@@ -47,19 +47,20 @@
 width="2" height="0">
 </embed>
 <br>
+<img src="stift.gif"><br>
+<script>utmx_section("Princess buy pen!")</script>
+<a href="buypen.php">Jetzt den Stift kaufen!</a>
+</noscript>
 <br>
 <br>
 <script language="Javascript" src="http://teamprincess.de/gcount12/graphcount.php?page=test"><!--
 //--></script>
 <br>
 <br>
-<script>utmx_section("Princess buy pen!")</script>
-<a href="buypen.php">Jetzt den Stift kaufen!</a>
-</noscript>
-<br>
-<img src="ie_button.gif"><br>
+<img src="colortoasters.gif"><img src="ie_button.gif"><br>
 
 <script type="text/javascript" charset="utf-8">
+(function() {
 	var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
 	var on=true;
 	var headers = document.getElementsByTagName('blink');
@@ -82,6 +83,7 @@ width="2" height="0">
 		
 		}
 	}, 1000);
+})();
 </script>
 <!-- Google Website Optimizer Tracking Script -->
 <script type="text/javascript">

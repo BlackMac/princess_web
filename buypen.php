@@ -9,7 +9,7 @@
 	<!-- Date: 2010-08-26 -->
 </head>
 <body>
-Thank You for helping out wit A/B Testing!
+Thank You for helping out with A/B Testing!
 <!-- Google Website Optimizer Conversion Script -->
 <script type="text/javascript">
 if(typeof(_gat)!='object')document.write('<sc'+'ript src="http'+
