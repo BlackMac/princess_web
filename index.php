@@ -8,6 +8,19 @@
 	<meta name="generator" content="TextMate http://macromates.com/">
 	<meta name="author" content="Stefan Lange-Hegermann">
 	<!-- Date: 2010-08-25 -->
+	<!-- Google Website Optimizer Control Script -->
+	<script>
+	function utmx_section(){}function utmx(){}
+	(function(){var k='1106946973',d=document,l=d.location,c=d.cookie;function f(n){
+	if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.indexOf(';',i);return c.substring(i+n.
+	length+1,j<0?c.length:j)}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;
+	d.write('<sc'+'ript src="'+
+	'http'+(l.protocol=='https:'?'s://ssl':'://www')+'.google-analytics.com'
+	+'/siteopt.js?v=1&utmxkey='+k+'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='
+	+new Date().valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+	'" type="text/javascript" charset="utf-8"></sc'+'ript>')})();
+	</script>
+	<!-- End of Google Website Optimizer Control Script -->
 	
 	<style type="text/css" media="screen">
 		body {
@@ -40,25 +53,46 @@ width="2" height="0">
 //--></script>
 <br>
 <br>
+<script>utmx_section("Princess buy pen!")</script>
+<a href="buypen.php">Jetzt den Stift kaufen!</a>
+</noscript>
+<br>
 <img src="ie_button.gif"><br>
 
 <script type="text/javascript" charset="utf-8">
 	var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
 	var on=true;
-	var header = document.getElementsByTagName('blink')[0];
+	var headers = document.getElementsByTagName('blink');
+	var header;
 	window.setInterval(function () {
 		if (is_chrome) {
 			on=!on;
 			
 			if (on) {
-				header.style.opacity="0";
+				for (headerNum in headers) {
+					header=headers[headerNum];
+					header.style.opacity="0";
+				}
 			} else {
-				header.style.opacity="1";
+				for (headerNum in headers) {
+					header=headers[headerNum];
+					header.style.opacity="1";
+				}
 			}
 		
 		}
 	}, 1000);
 </script>
-
+<!-- Google Website Optimizer Tracking Script -->
+<script type="text/javascript">
+if(typeof(_gat)!='object')document.write('<sc'+'ript src="http'+
+(document.location.protocol=='https:'?'s://ssl':'://www')+
+'.google-analytics.com/ga.js"></sc'+'ript>')</script>
+<script type="text/javascript">
+try {
+var gwoTracker=_gat._getTracker("UA-4184257-2");
+gwoTracker._trackPageview("/1106946973/test");
+}catch(err){}</script>
+<!-- End of Google Website Optimizer Tracking Script -->
 </body>
 </html>
