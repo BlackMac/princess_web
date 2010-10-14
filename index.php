@@ -42,7 +42,7 @@
 <img src="princess.gif" alt=""><br>
 <img src="hevequip2.gif" width="413" height="100" alt="Hevequip2">
 <h2>Princess of the sprint:</h2>
-<img src="leya.jpg" alt="Pony Princess">
+<img src="princesses/modern-little-old-princess.jpg" alt="Pony Princess">
 <embed src="aschenbroedel.mid" autostart="true" loop="true"
 width="2" height="0">
 </embed>
